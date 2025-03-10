@@ -51,10 +51,31 @@ VALUES(
 ```
 
 ```sql
-INSERT INTO professores(titulo, cargaHoraria, professor_id)
+INSERT INTO professores(nome, area_de_atuacao, curso_id)
 VALUES(
-   'Front-End',
-   2400
-), 
+   'Pedro',
+   'Infra',
+   5
+),
+(
+    'João',
+    'Design',
+    4
+),
+(
+    'Marcelo',
+    'Design',
+    3
+),
+(
+    'Julio',
+    'Desenvolvimento',
+    2
+),
+(
+    'Bruno',
+    'Desenvolvimento',
+    1
+);
 ```
 
